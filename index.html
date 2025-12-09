@@ -16,24 +16,24 @@
         <div class="personal__logo">John Clavette</div>
         <ul class="nav__link--list">
             <!--LANGUAGES-->
-            <li>
-                <a href="" class="
+            <li class="nav__link">
+                <a href="#languages" class="
                 nav__link--anchor
                 link__hover-effect
                 link__hover-effect--black">
                 Languages</a>
             </li>
             <!--PROJECTS-->
-             <li>
-                <a href="" class="
+             <li class="nav__link">
+                <a href="#projects" class="
                 nav__link--anchor
                 link__hover-effect
                 link__hover-effect--black">
                 Projects</a>
             </li>
             <!--CONTACT-->
-             <li>
-                <a href="" class="
+             <li class="nav__link">
+                <a href="mailto:clavette.john@gmail.com" class="
                 nav__link--anchor
                 nav__link--anchor-primary">
                 Contact</a>
@@ -63,39 +63,58 @@
                 </p>
                 <!--MY BUSINESS SOCIAL LINKS-->
                 <div class="about-me__links">
-                   <a href="" class="about-me__links">
+                   <a href="#" class="about-me__links">
                     <i class="fa-brands fa-linkedin-in"></i>
                    </a>
-                   <a href="" class="about-me__links">
+                   <a href="#" class="about-me__links">
                     <i class="fa-brands fa-github-alt"></i>
                    </a>
-                   <a href="" class="about-me__links">
+                   <a href="#" class="about-me__links">
                     <i class="fa-solid fa-envelope"></i>
                    </a>
-                   <a href="" class="about-me__links">
+                   <a href="#" class="about-me__links">
                     <i class="fa-solid fa-file"></i>
                    </a> 
                 </div>
             </div>
             <!--LARGE TEAMWORK IMAGE-->
               <figure class="about-me__img--container">
-                <img src="undraw_teamwork_zplp.png" alt="teamwork image">
+                <img src="undraw_teamwork_zplp.png" class="about-me__img" alt="teamwork image">
               </figure>  
         </div>
     </div>
     </section>
+    
+    <!--LANGUAGE TITLE AND LOGOS TECH STACK-->
     <section id="languages">
-        <div class="languages__container">
+        <div class="container">
             <div class="row">
-                <h2 class="languages__title">Here's my <span class="text--green">Technology Stack</span></h2>
+                <h2 class="section__title">Here's my <span class="text--green">Technology Stack</span></h2>
                     <div class="languages__list">
+                        
                         <div class="languages">
                             <figure class="languages__img--wrapper">
-                                <img src="icons8-html5-50.png" alt="html5 logo" class="languages__img">
-                                <img src="icons8-css-logo-50.png" alt="css logo" class="languages__img">
-                                <img src="icons8-javascript-50.png" alt="javascript logo" class="languages__img">
-                                <img src="icons8-react-50.png" alt="react logo" class="languages__img">
+                                <img src="icons8-html5-50.png" alt="html5 logo" class="languages__img"/>
                             </figure>
+                            <span class="languages__name">HTML</span>
+                        </div>    
+                        <div class="languages">
+                            <figure class="languages__img--wrapper">       
+                                <img src="icons8-css-logo-50.png" alt="css logo" class="languages__img"/>
+                            </figure>
+                            <span class="languages__name">CSS</span>
+                        </div>
+                        <div class="languages">
+                            <figure class="languages__img--wrapper">    
+                                <img src="icons8-javascript-50.png" alt="javascript logo" class="languages__img"/>
+                            </figure>
+                            <span class="languages__name">JavaScript</span>
+                        </div>
+                        <div class="languages"> 
+                            <figure class="languages__img--wrapper">
+                                <img src="icons8-react-50.png" alt="react logo" class="languages__img"/>
+                            </figure>
+                            <span class="languages__name">React</span>
                         </div>
 
                     </div>
@@ -103,4 +122,110 @@
 
         </div>
     </section>
+    <!--PROJECT SECTION-->
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <h2 class="section__title"><span class="text--green">My </span>most recent <span class="text--green">Projects</span></h2>
+                <!--UNORDERED LIST OF PROJECTS-->
+                <ul class="projects__list">
+                    
+                    <!--PROJECT 1-->
+                   
+                       <li class="project">
+                    <!--project wrapper-->
+                        <div class="project__wrapper">  
+                            <img src="loopit.png" alt="project 1 screenshot" class="project__img"/>
+                    <!--project description-->
+                            <div class="project__description">
+                                <h3 class="project__description--title">Something Great Will Be Here Soon!</h3>
+                                <h4 class="project__description--sub-title">
+                                    Html, CSS, JavaScript
+                                </h4>
+                                <p class="project__description--para">
+                                    Eventually this will be filled with <span class="text--green">my projects</span>. I can't wait!
+                                </p>
+                    <!--project desription links-->
+                                <div class="project__description--links">
+                                    <a href="https://www.github.com/yourlink" target="_blank" class="project__description--links">
+                                    <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://www.yourwebsite.com" class="project__description--links">
+                                    <i class="fas fa-link"></i>
+                                    </a>
+                                </div><!--end project description links-->
+                            </div><!--project description ends-->
+                        </div><!--project wrapper ends-->
+                    </li>
+
+                    <!--PROJECT 2-->
+                    
+                    <li class="project">
+                    <!--project wrapper-->
+                        <div class="project__wrapper">  
+                            <img src="loopit.png" alt="project 1 screenshot" class="project__img"/>
+                    <!--project description-->
+                            <div class="project__description">
+                                <h3 class="project__description--title">Something Great Will Be Here Soon!</h3>
+                                <h4 class="project__description--sub-title">
+                                    Html, CSS, JavaScript
+                                </h4>
+                                <p class="project__description--para">
+                                    Eventually this will be filled with <span class="text--green">my projects</span>.  I can't wait!
+                                </p>
+                    <!--project desription links-->
+                                <div class="project__desription--links">
+                                    <a href="https://www.github.com/yourlink" target="_blank" class="project__description--links">
+                                    <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://www.yourwebsite.com" class="project__description--links">
+                                    <i class="fas fa-link"></i>
+                                    </a>
+                                </div><!--end project description links-->
+                            </div><!--project description ends-->
+                        </div><!--project wrapper ends-->
+                    </li>
+                </ul><!--END OF UNORDERED LIST OF PROJECTS-->
+    </section><!--END OF PROJECT SECTION-->
+
+
+    <!--THE FOOTER THE END!-->
+ <footer>
+    <div class="row footer__row">
+      <a href="#" class="footer__anchor">
+        <figure class="footer__logo">
+          <img src="jclogo.png" class="footer__logo--img" alt="">
+        </figure>
+        <span class="footer__logo--popper">
+          Top
+          <i class="fas fa-arrow-up"></i>
+        </span>
+      </a>
+      <div class="footer__social--list">
+        <a href="https://google.com" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+        " target="_blank">GitHub</a>
+        <a href="https://google.com" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+        " target="_blank">LinkedIn</a>
+        <a href="mailto:clavette.john@gmail.com" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+        " target="_blank">Email</a>
+        <a href="./assets/Example Resume.pdf" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+        " target="_blank">Resume</a>
+      </div>
+      <div class="footer__copyright">Copyright © 2025 <span class="text--green">John Clavette</span>>
+    </div>
+    </div>
+  </footer>
+</body>
 </html>
